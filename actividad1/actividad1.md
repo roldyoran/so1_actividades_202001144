@@ -25,6 +25,8 @@ R// Son las cosas que tiene un telefono o una compu.
 3. ¿Sabe que es una IP?
 R// No lo se, nunca he escuchado eso.
 
+---
+---
 
 ### Conclusiones
 La gente suele conocer términos sencillos sobre dispositivos como computadoras o teléfonos pero no saben cómo funcionan ni de qué están hechos, por lo que cuando se les preguntan sobre conceptos como “IP” no saben qué significan las siglas y mucho menos qué es o cómo funciona.
