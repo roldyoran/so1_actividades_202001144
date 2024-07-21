@@ -4,7 +4,7 @@
 Sistema operativo, archivo e IP.
 Realizar una conclusión en base a los comentarios obtenidos -->
 ---
-## Primera Persona
+### Primera Persona
 1. ¿Sabe que es un Sistema Operativo?
 R// Creo que es lo que hace que funcione una computadora.
 
@@ -15,7 +15,7 @@ R// Son los documentos que tiene una computadora.
 R// No se que es.
 
 ---
-## Segunda Persona
+### Segunda Persona
 1. ¿Sabe que es un Sistema Operativo?
 R// Es lo que se encarga de las cosas funcionen con internet creo.
 
@@ -28,6 +28,6 @@ R// No lo se, nunca he escuchado eso.
 ---
 ---
 
-### Conclusiones
+# Conclusiones
 La gente suele conocer términos sencillos sobre dispositivos como computadoras o teléfonos pero no saben cómo funcionan ni de qué están hechos, por lo que cuando se les preguntan sobre conceptos como “IP” no saben qué significan las siglas y mucho menos qué es o cómo funciona.
 
