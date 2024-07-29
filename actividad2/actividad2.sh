@@ -34,4 +34,4 @@ echo "Mensaje Guardado Exitosamente"
 
 # Al finalizar ejecutar
 # crontab -e
-# */5 * * * * /home/so1_actividades_202001144/actividad2/activadad2.sh
+# */5 * * * * /home/sopes/activadad2.sh
