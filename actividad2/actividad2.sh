@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Se ingresa el usuario de github
-GITHUB_USER=${GITHUB_USER:-"default_user"}
+GITHUB_USER=${GITHUB_USER:-"roldyoran"}
 
 # Consultar la API de GitHub
 response_json=$(curl -s "https://api.github.com/users/$GITHUB_USER")
@@ -34,4 +34,4 @@ echo "Mensaje Guardado Exitosamente"
 
 # Al finalizar ejecutar
 # crontab -e
-# */5**** /home/so1_actividades_202001144/actividad2/activadad2.sh
+# */5 * * * * /home/so1_actividades_202001144/actividad2/activadad2.sh
