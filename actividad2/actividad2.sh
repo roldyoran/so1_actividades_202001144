@@ -34,4 +34,5 @@ echo "Mensaje Guardado Exitosamente"
 
 # Al finalizar ejecutar
 # crontab -e
+# Al final del archivo escribir y guardar:
 # */5 * * * * /home/sopes/activadad2.sh
