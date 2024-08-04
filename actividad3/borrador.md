@@ -7,11 +7,15 @@ Como `usuario1`, crea un archivo llamado `archivo1.txt` en su directorio princip
 ```bash
 # Cambiar a usuario1
 su - usuario1
+```
 
 # Crear archivo1.txt y escribir algo en él
+```bash
 echo "Contenido del archivo1" > ~/archivo1.txt
+```
 
 # Crear directorio1 y archivo2.txt dentro de él
+```bash
 mkdir ~/directorio1
 echo "Contenido del archivo2" > ~/directorio1/archivo2.txt
 ```
