@@ -97,6 +97,7 @@ id usuario1
 ```
 <!-- RESULTADO -->
 `Resultado:`
+
 ![Resultado:](./imgs/id-usuario1.png)
 
 
@@ -109,6 +110,7 @@ Eliminación de `usuario3`, pero conservando su directorio principal.
 sudo userdel usuario3
 ```
 `Resultado sin aparecer en el cat de passwd:`
+
 ![Resultado:](./imgs/userdel-usuario3.png)
 
 
@@ -225,6 +227,7 @@ chmod 640 ~/archivo1.txt
 ```
 
 `Verificando los permisos:`
+
 ![Resultado:](./imgs/parte3-3.png)
 
 
@@ -246,6 +249,7 @@ Cambiando el grupo propietario de `archivo2.txt` a `grupo1`.
 chown :grupo1 ~/directorio1/archivo2.txt
 ```
 `Verificando los permisos:`
+
 ![Resultado:](./imgs/parte3-5.png)
 
 
@@ -257,6 +261,7 @@ Cambiando los permisos del `directorio1` para que sólo el propietario pueda ent
 chmod 744 ~/directorio1
 ```
 `Verificando los permisos:`
+
 ![Resultado:](./imgs/parte3-6.png)
 
 
@@ -274,6 +279,7 @@ cat /home/usuario1/directorio1/archivo2.txt
 
 ```
 `Resultado:`
+
 ![Resultado:](./imgs/parte3-7.png)
 > **Nota:**
 > Efectivamente los permisos dentro del directorio no me dejan acceder al archivo2.txt
@@ -285,6 +291,7 @@ cat /home/usuario1/directorio1/archivo2.txt
 Verificando los permisos y propietario de los archivos y directorio nuevamente con `ls -l` y `ls -ld`.
 
 `Resultado:`
+
 ![Resultado:](./imgs/parte3-8.png)
 
 
