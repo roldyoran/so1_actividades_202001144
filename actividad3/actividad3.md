@@ -186,12 +186,12 @@ Primero cambiar al usuario1
 su - usuario1
 ```
 
-# Crear archivo1.txt y escribir algo en él
+### Crear archivo1.txt y escribir algo en él
 ```bash
 echo "Contenido del archivo1 del usuario1" > ~/archivo1.txt
 ```
 
-# Crear directorio1 y archivo2.txt dentro de él
+### Crear directorio1 y archivo2.txt dentro de él
 ```bash
 mkdir ~/directorio1
 echo "Contenido del archivo2 del usuario1" > ~/directorio1/archivo2.txt
@@ -239,6 +239,7 @@ Agregando permiso de ejecución al propietario del `archivo2.txt`.
 chmod u+x ~/directorio1/archivo2.txt
 ```
 `Verificando los permisos:`
+
 ![Resultado:](./imgs/parte3-4.png)
 
 
@@ -298,13 +299,13 @@ Verificando los permisos y propietario de los archivos y directorio nuevamente c
 ---
 ## Reflexión
 
-    ¿Por qué es importante gestionar correctamente los usuarios y permisos en un sistema operativo?
+### ¿Por qué es importante gestionar correctamente los usuarios y permisos en un sistema operativo?
 
 **Respuesta:**  
 Para proteger los archivos y asegurarse de que ningún otro usuario o grupo tenga acceso a estos sin la debida autorización. Además, esto protege a los usuarios de modificar contenido que pueda ser sensible y del cual no tengan conocimiento.
 
 
-    ¿Qué otros comandos o técnicas conocen para gestionar permisos en Linux?
+### ¿Qué otros comandos o técnicas conocen para gestionar permisos en Linux?
 
 - **chmod**: Cambia los permisos de archivos y directorios.
 - **chown**: Cambia el propietario y el grupo de archivos y directorios.
