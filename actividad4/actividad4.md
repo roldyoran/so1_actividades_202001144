@@ -55,12 +55,12 @@ Ahora se habilita el servicio para que se inicie automáticamente al arrancar el
 ```bash
 sudo systemctl enable saludo.service
 ```
-Inicie el servicio manualmente:
+Se inicia el servicio manualmente:
 ```bash
 sudo systemctl start saludo.service
 ```
 
-4. Verificar los Logs del Servicio
+# 4. Verificar los Logs del Servicio
 
 Para revisar los logs generados por el servicio, se usa:
 ```bash
