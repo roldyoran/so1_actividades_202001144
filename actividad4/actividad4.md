@@ -1,4 +1,5 @@
-# Instalación del Servicio Saludo
+# Actividad 4 - Systemd Unit
+
 
 Este documento describe cómo instalar y configurar un servicio `systemd` que ejecuta un script de Bash infinitamente, imprimiendo un saludo y la fecha actual.
 
