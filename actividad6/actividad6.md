@@ -5,7 +5,7 @@ Razone su respuesta.
 
 ![alt text](imgs/image.png)
 
-<div style="border-left: 4px solid #ffcc00; padding: 10px; background-color: #000;">
+<div style="border-left: 4px solid #ffcc00; padding: 10px; background-color: #fcba03;">
 
 ### Respuesta:
 
