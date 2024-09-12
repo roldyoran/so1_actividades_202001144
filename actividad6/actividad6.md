@@ -5,9 +5,14 @@ Razone su respuesta.
 
 ![alt text](imgs/image.png)
 
-> ### Respuesta:
->
->Se crean aproximadamente 8 procesos. Cada llamada a la función **fork()** genera un proceso hijo y permite que el proceso padre continúe su ejecución. El segundo **fork()** duplica el número de procesos, creando 2 nuevos por cada uno existente. Finalmente, el tercer **fork()** añade 4 procesos más, ya que los procesos creados previamente actúan como padres. En total, se terminan generando 8 procesos.
+<div style="border-left: 4px solid #ffcc00; padding: 10px; background-color: #000;">
+
+### Respuesta:
+
+Se crean aproximadamente 8 procesos. Cada llamada a la función **fork()** genera un proceso hijo y permite que el proceso padre continúe su ejecución. El segundo **fork()** duplica el número de procesos, creando 2 nuevos por cada uno existente. Finalmente, el tercer **fork()** añade 4 procesos más, ya que los procesos creados previamente actúan como padres. En total, se terminan generando 8 procesos.
+
+</div>
+
 
 
 
@@ -76,7 +81,7 @@ int main() {
 ![alt text](imgs/inciso3_enunciado.png)
 
 
-### Código Inicial:
+### Código Completado:
 ```C
 #include <stdio.h>
 #include <unistd.h>
