@@ -5,14 +5,9 @@ Razone su respuesta.
 
 ![alt text](imgs/image.png)
 
-<div style="border-left: 4px solid #ffcc00; padding: 10px; background-color: #fcba03;">
-
-### Respuesta:
-
-Se crean aproximadamente 8 procesos. Cada llamada a la función **fork()** genera un proceso hijo y permite que el proceso padre continúe su ejecución. El segundo **fork()** duplica el número de procesos, creando 2 nuevos por cada uno existente. Finalmente, el tercer **fork()** añade 4 procesos más, ya que los procesos creados previamente actúan como padres. En total, se terminan generando 8 procesos.
-
-</div>
-
+> ### Respuesta:
+>
+>Se crean aproximadamente 8 procesos. Cada llamada a la función **fork()** genera un proceso hijo y permite que el proceso padre continúe su ejecución. El segundo **fork()** duplica el número de procesos, creando 2 nuevos por cada uno existente. Finalmente, el tercer **fork()** añade 4 procesos más, ya que los procesos creados previamente actúan como padres. En total, se terminan generando 8 procesos.
 
 
 
@@ -20,6 +15,8 @@ Se crean aproximadamente 8 procesos. Cada llamada a la función **fork()** gener
 
 El proceso zombie debe permanecer en el sistema durante al menos 60 segundos. Los estados del proceso se pueden visualizar con el comando `ps -l`.
 
+
+### Codigo:
 ```C
 #include <stdio.h>
 #include <unistd.h>
@@ -121,7 +118,7 @@ int main() {
 ```
 
 
-### Preguntas:
+### Respuesta a las Preguntas:
 
 1. **¿Cuántos procesos únicos son creados?**
 
